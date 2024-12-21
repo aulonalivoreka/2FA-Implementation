@@ -51,3 +51,24 @@ Here’s an overview of the project files and directories:
 
 ## Setup Instructions
 1. Clone the repository:
+git clone https://github.com/aulonalivoreka/2FA-Implementation.git
+2. Open the project in Android Studio.
+3. Configure the email settings in `EmailSender.java`:
+- Replace the `sendermail` and `senderpassword` with valid email credentials (use App Passwords for Gmail accounts).
+4. Build and run the app on an Android device or emulator.
+5. Test the registration and login functionalities to ensure OTP emails are sent and verified correctly.
+
+## Requirements
+- **Android Studio Bumblebee** or later.
+- A valid Gmail account with App Passwords enabled.
+- A physical or virtual Android device running Android 8.0 (API 26) or later.
+
+## Security Measures
+- **BCrypt**: Passwords are hashed for secure storage.
+- **Email Verification**: Ensures the user has access to the provided email address.
+
+## License
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+
+
