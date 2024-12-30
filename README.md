@@ -67,6 +67,8 @@ git clone https://github.com/aulonalivoreka/2FA-Implementation.git
 - **BCrypt**: Passwords are hashed for secure storage.
 - **Email Verification**: Ensures the user has access to the provided email address.
 
+## License
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
 
 
